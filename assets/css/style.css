@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 
-.nav-menu .get-started a {
+.nav-menu .contact a {
   background: #eb5d1e;
   color: #fff;
   border-radius: 50px;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 25px;
 }
 
-.nav-menu .get-started a:hover {
+.nav-menu .contact a:hover {
   background: #ee7843;
   color: #fff;
 }
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 
-.mobile-nav .get-started a {
+.mobile-nav .contact a {
   background: #eb5d1e;
   color: #fff;
   border-radius: 50px;
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 25px;
 }
 
-.mobile-nav .get-started a:hover {
+.mobile-nav .contact a:hover {
   background: #ee7843;
   color: #fff;
 }
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#hero .btn-contact {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: #eb5d1e;
 }
 
-#hero .btn-get-started:hover {
+#hero .btn-contact:hover {
   background: #ef7f4d;
 }
 
@@ -531,9 +531,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Roles
 --------------------------------------------------------------*/
-.services .icon-box {
+.roles .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -546,29 +546,29 @@ section {
   border-bottom: 3px solid #fff;
 }
 
-.services .icon-box:hover {
+.roles .icon-box:hover {
   transform: translateY(-5px);
   border-color: #ef7f4d;
 }
 
-.services .icon i {
+.roles .icon i {
   font-size: 48px;
   line-height: 1;
   margin-bottom: 15px;
   color: #ef7f4d;
 }
 
-.services .title {
+.roles .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.roles .title a {
   color: #111;
 }
 
-.services .description {
+.roles .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
@@ -577,18 +577,18 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.project .project-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.project #project-flters {
   padding: 0;
   margin: 0 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.project #project-flters li {
   cursor: pointer;
   margin: 0 15px 15px 0;
   display: inline-block;
@@ -601,15 +601,15 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.project #project-flters li:hover, .project #project-flters li.filter-active {
   color: #eb5d1e;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.project #project-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.project .project-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -617,7 +617,7 @@ section {
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.project .project-wrap::before {
   content: "";
   background: rgba(122, 105, 96, 0.6);
   position: absolute;
@@ -629,13 +629,13 @@ section {
   z-index: 2;
 }
 
-.portfolio .portfolio-wrap img {
+.project .project-wrap img {
   transition: 0.3s;
   position: relative;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.project .project-wrap .project-links {
   opacity: 0;
   left: 0;
   right: 0;
@@ -646,7 +646,7 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.project .project-wrap .project-links a {
   color: #eb5d1e;
   margin: 0 4px;
   font-size: 18px;
@@ -662,16 +662,16 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a i {
+.project .project-wrap .project-links a i {
   line-height: 1;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.project .project-wrap .project-links a:hover {
   background: #eb5d1e;
   color: #fff;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.project .project-wrap .project-info {
   opacity: 0;
   position: absolute;
   bottom: -20px;
@@ -682,28 +682,28 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.project .project-wrap .project-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.project .project-wrap .project-info p {
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.project .project-wrap:hover::before {
   left: 0;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.project .project-wrap:hover .project-links {
   opacity: 1;
   top: calc(50% - 16px);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.project .project-wrap:hover .project-info {
   opacity: 1;
   bottom: 0;
 }
@@ -1073,7 +1073,6 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
   padding: 0 0 30px 0;
   color: #212529;
   font-size: 14px;
@@ -1134,19 +1133,6 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
-}
-
-#footer .footer-top .footer-contact {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-contact h4 {
-  font-size: 22px;
-  margin: 0 0 30px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1225,9 +1211,13 @@ section {
   text-decoration: none;
 }
 
-#footer .copyright {
+#footer .footer-down .row {
   text-align: center;
-  float: left;
+}
+
+#footer .footer-down .copyright p {
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
 }
 
 #footer .credits {
