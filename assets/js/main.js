@@ -96,16 +96,16 @@
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item',
+    var projectIsotope = $('.project-container').isotope({
+      itemSelector: '.project-item',
       layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
+    $('#project-flters li').on('click', function() {
+      $("#project-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
-      portfolioIsotope.isotope({
+      projectIsotope.isotope({
         filter: $(this).data('filter')
       });
     });
@@ -139,5 +139,15 @@
     duration: 800,
     easing: "ease-in-out"
   });
+
+  // Hero
+  $('.hero-img').hover(
+    function() {
+      $('img').removeClass('animated')
+    },
+    function() {
+      $('img').addClass('animated')
+    }
+  )
 
 })(jQuery);
